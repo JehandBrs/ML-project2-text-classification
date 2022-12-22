@@ -2,7 +2,7 @@
 
 This project aims at making supervised binary classification of tweets according to the emotion given by this phrase. These tweets initially contained positive smiley ”:)” or negative smiley ”:(”. These emojis has been removed from the tweets and the tweets has been labeled according to the emoji removed.
 
-Please refers to our report (`ML___Project_2.pdf`) to understand our methodology and achievement.
+Please refer to our report, ML___Project_2.pdf, to understand our methodology and achievements.
 
 ## Create the predictions : `run.py`
 
