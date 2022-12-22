@@ -19,7 +19,7 @@ Please note that it takes about 45 minutes on Google Colab to run this script. Y
 
 ## Other content of the repository
 
-In this repository you can find all the files summarising our exploratory work to get the best accuracy on our prediction. 
+In this repository you can find all the notebooks summarising our exploratory work to get the best accuracy on our prediction. We decided for simplicity to create different notebooks as the preprocessing and text vectorization is different for the several techniques we tried.
 
 ### `preprocessing-pipeline.ipynb`
 
@@ -29,7 +29,7 @@ First, in this notebook, we have made an explanatory study of the data to better
 In this notebook we evaluated the methods of : Logistic regression, Descision tree and a Simple Multi-layer Perceptron classifier.  
 
 ### `bi-LSTM_predictions.ipynb`
-In this notebook we evaluated the method of a bi-LSTM model, a neural network containing bidirectional LSTM layers.
+In this notebook we evaluated the method of a bi-LSTM model : a neural network containing bidirectional LSTM layers.
 
 ### `fine-tune-BERT_predictions.ipynb`
 Finally, in this notebook, we evaluated a method of fine-tuning pre-trained transformer models from HuggingFace.
