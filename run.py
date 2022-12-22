@@ -11,6 +11,7 @@
 
 import numpy as np
 import pandas as pd
+import torch
 import transformers 
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, TrainingArguments, Trainer 
 from sklearn.model_selection import train_test_split
@@ -82,7 +83,8 @@ trainer = Trainer(
 )
 
 # Now let's train our Trainer
-trainer.train('model.pt')
+checkpoint = torch.load('model.pt')
+trainer.train(checkpoint['model_state_dict'])
 
 
 # load test data and tokenize it 
