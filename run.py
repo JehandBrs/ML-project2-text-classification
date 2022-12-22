@@ -82,7 +82,7 @@ trainer = Trainer(
 )
 
 # Now let's train our Trainer
-trainer.train()
+trainer.train('model.pt')
 
 
 # load test data and tokenize it 
