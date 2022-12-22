@@ -28,8 +28,8 @@ First, in this notebook, we have made an explanatory study of the data to better
 ### `sklearn_predictions.ipynb`
 In this notebook we evaluated the methods of : Logistic regression, Descision tree and a Simple Multi-layer Perceptron classifier.  
 
-### `bi-LSTM_predictions.ipynb`
-In this notebook we evaluated the method of a bi-LSTM model : a neural network containing bidirectional LSTM layers.
+### `bidirectional-LSTM_predictions.ipynb`
+In this notebook we evaluated the method of a bidirectional-LSTM model : a neural network containing bidirectional LSTM layers.
 
 ### `fine-tune-BERT_predictions.ipynb`
 Finally, in this notebook, we evaluated a method of fine-tuning pre-trained transformer models from HuggingFace.
