@@ -2,6 +2,8 @@
 
 This project aims at making supervised binary classification of tweets according to the emotion given by this phrase. These tweets initially contained positive smiley ”:)” or negative smiley ”:(”. These emojis has been removed from the tweets and the tweets has been labeled according to the emoji removed.
 
+Please refers to our report (`ML___Project_2.pdf`) to understand our methodology and achievement.
+
 ## Create the predictions : `run.py`
 
 The method used to create the submission file used on AIcrowd is 'fine-tuning pre-trained transformer models from HuggingFace'. In order to create the submission file posted on AIcrowd, you have to run the file `run.py`. It is a cleaned version of our notebook about the choosen method. 
