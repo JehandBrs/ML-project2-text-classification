@@ -26,10 +26,10 @@ In this repository you can find all the notebooks summarising our exploratory wo
 First, in this notebook, we have made an explanatory study of the data to better understand them. We also evaluated the most appropriate preprocessing methods to use in order to best prepare the data for model training and prediction. We also placed all the useful definitions on preprocessing in the python file `f_preprocessing.py` so that they can be used in other notebooks.
 
 ### `sklearn_predictions.ipynb`
-In this notebook we evaluated the methods of : Logistic regression, Descision tree and a Simple Multi-layer Perceptron classifier.  
+In this notebook we evaluated the methods of : Logistic regression, Descision tree and a Simple Multi-layer Perceptron classifier. The ML library used is sklearn
 
 ### `bidirectional-LSTM_predictions.ipynb`
-In this notebook we evaluated the method of a bidirectional-LSTM model : a neural network containing bidirectional LSTM layers.
+In this notebook we evaluated the method of a bidirectional-LSTM model : a neural network containing bidirectional LSTM layers. The ML library used is keras from tensorflow, as well as sklearn.
 
 ### `fine-tune-BERT_predictions.ipynb`
-Finally, in this notebook, we evaluated a method of fine-tuning pre-trained transformer models from HuggingFace.
+Finally, in this notebook, we evaluated a method of fine-tuning pre-trained transformer models from HuggingFace. The ML library used is transformers from hugging face, as well as sklearn.
