@@ -98,4 +98,4 @@ classification = 2*pred_label-1
 
 # We convert these predictions to a csv file to submit it to AIcrowd
 DF = pd.DataFrame.from_dict({'Id': range(1, 10001), 'Prediction': classification.tolist()})
-DF.to_csv('submission_BERT.csv', index = False)
+DF.to_csv('submissions.csv', index = False)
