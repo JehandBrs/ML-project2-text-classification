@@ -11,7 +11,7 @@ The method used to create the submission file used on AIcrowd is 'fine-tuning pr
 Here are the steps to follow : 
 
 * Download the dataset on the following link : https://www.aicrowd.com/challenges/epfl-ml-text-classification. 
-* In `line 20`, `line 21` and `line 89` change the data path to your local path to the files train_neg.txt, train_pos.txt and test_data.txt repsectively. 
+* In `line 20`, `line 21` and `line 89` of the `run.py`script, change the data path to your local path to the files train_neg.txt, train_pos.txt and test_data.txt repsectively. 
 * Run the `run.py`script.
 
 Please note that it takes about 45 minutes on Google Colab to run this script. You can also reduce the amount of data used for training in `line 79` (taking 5000 data instead of 20,000 will reduce the execution time to about 12 minutes. If you do not have a GPU on your laptop, we strongly recommend that you run this script on Google Colab to take advantage of their GPU.
