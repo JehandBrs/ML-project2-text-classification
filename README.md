@@ -13,7 +13,7 @@ Here are the steps to follow :
 * Clone the repository with the command : `git clone https://github.com/TheGreatJanus/ML-project2-text-classification` 
 * Run the `run.py`script.
 
-Please note that it takes about 45 minutes on Google Colab to run this script. You can also reduce the amount of data used for training in `line 79` (taking 5000 data instead of 20,000 will reduce the execution time to about 12 minutes. If you do not have a GPU on your laptop, we strongly recommend that you run this script on Google Colab to take advantage of their GPU.
+Please note that we saved our model weights in the file model.pt in order for you to recreate the submission file file `run.py` without redoing all the training that takes about 45 minutes to rune in Google Colab. If you want to run all the training, you can replace the `line 85` of `run.py` by `trainer.train()`. It takes about 45 minutes on Google Colab to do the all training. You can reduce the amount of data used for training in `line 79` (taking 5000 data instead of 20,000 will reduce the execution time to about 12 minutes. If you do not have a GPU on your laptop, we strongly recommend that you run this script on Google Colab to take advantage of their GPU.
 
 
 ## Other content of the repository
