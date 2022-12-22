@@ -34,4 +34,4 @@ In this notebook we evaluated the methods of : Logistic regression, Descision tr
 In this notebook we evaluated the method of a bidirectional-LSTM model : a neural network containing bidirectional LSTM layers. The ML libraries used are keras from tensorflow, as well as sklearn.
 
 ### `fine-tune-BERT_predictions.ipynb`
-Finally, in this notebook, we evaluated a method of fine-tuning pre-trained transformer models from HuggingFace. The ML libraries used are transformers and datasets from hugging face, as well as sklearn.
+Finally, in this notebook, we evaluated a method of fine-tuning pre-trained transformer models from HuggingFace. The ML libraries used are transformers and datasets from HuggingFace, as well as sklearn.
