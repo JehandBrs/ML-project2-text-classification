@@ -4,7 +4,7 @@ This project aims at making supervised binary classification of tweets according
 
 In this repository you can find all the files summarising our exploratory work to get the best accuracy on our prediction. 
 
-### preprocessing-pipeline.ipynb
+### `preprocessing-pipeline.ipynb`
 
 First, in this notebook, we have made an explanatory study of the data to better understand them. We also evaluated the most appropriate preprocessing methods to use in order to best prepare the data for model training and prediction. We also placed all the useful definitions on preprocessing in the python file `f_preprocessing.py` so that they can be used in other notebooks.
 
